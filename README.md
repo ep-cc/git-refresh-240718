@@ -1,1 +1,4 @@
-# git-refresh-240718
+# Number guessing game
+
+Simple web app, implemented in HTML and Javascript.
+
