@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Number guessing game</title>
-    <script src=""></script>
+    <script src="game.js"></script>
+    <style>
+      div {
+        padding: 1em;
+      }
+    </style>
 </head>
 <body>
 <h1>Number guessing game</h1>
+<div>
+<button onclick="startGame()">Start a new game!</button>
+</div>
+<div>
+  <input id="guess" type="number" placeholder="guess a number">
+  <button onclick="guess()">Send guess</button>
+</div>
+<div id="message"></div>
 </body>
 </html>
 
